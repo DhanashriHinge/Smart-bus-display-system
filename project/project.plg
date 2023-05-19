@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\8051\project\project.uvproj
+Project File Date:  02/26/2023
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling project.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_STRING?PROJECT
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?INT0_ISR?PROJECT
+Program Size: data=22.0 xdata=0 code=560
+creating hex file from "project"...
+"project" - 0 Error(s), 1 Warning(s).
